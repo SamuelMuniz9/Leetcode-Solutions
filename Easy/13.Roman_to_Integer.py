@@ -43,7 +43,7 @@
     - Espaço: O(1), já que usamos apenas dicionários fixos de valores.
 
     """
-S = "IIIV"
+S = "XIV"
 valores = {
     "I":1,
     "V": 5,
@@ -54,9 +54,14 @@ valores = {
     "M": 1000
         }
 combo_numero = {
-    "IV":4,
-    "IX":9
-}
+            "IV" : 4, 
+            "IX" : 9,
+            "XL" : 40, 
+            "XC" : 90, 
+            "CD" : 400, 
+            "CM" : 900
+              }
+
 
 
 total = 0
